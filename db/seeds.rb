@@ -7,14 +7,14 @@
 #   Character.create(name: 'Luke', movie: movies.first)
 User.destroy_all
 Document.destroy_all
-User.create!(first_name: "Ramprabhu",
-             last_name: "Narayanasamy",
-             email: 'nramprabu@gmail.com',
+User.create!(first_name: "Swati",
+             last_name: "Jalandra",
+             email: 'swati.jalandra@gmail.com',
              password: '123456',
              password_confirmation: '123456',
              is_admin: true,
-             dob: '1989-01-14',
-             gender: 'male',
-             mobileno: '9600804251',
-             address: 'Chennai',
+             dob: '1988-05-26',
+             gender: 'female',
+             mobileno: '9342541222',
+             address: 'Jaipur',
              status: 'single')
